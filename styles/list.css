@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E0FFFF;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+}
+
+.container{
+    background-color: #ffff;
+    margin-top: 30px;
+    width: 70%;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 10px 10px 5px 0px rgba(94,133,133,1);
+
+}
+
+.container h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4169E1;
+}
+.grupo-input{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#tarefa-text{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    outline: none;
+}
+#add-tarefa{
+    margin-left: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #708090;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+#add-tarefa:hover{
+    background-color: #00FF7F;
+}
+
+#lista-tarefa{
+    list-style-type: none;
+    margin-top: 20px;
+
+}
+#lista-tarefa li{
+    background-color: #f9f9f9;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.check, .delete, .edit {
+    border: none;
+    background-color: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.check{
+    color: #00FF7F;
+}
+
+.delete{
+    color: purple;
+}
+
+.edit{
+    color: blue;
+}
+
+.check:hover{
+    color: red ;
+}
+
+.delete:hover{
+    color: red;
+}
+
+.edit:hover{
+    color: red;
+}
+.completo{
+    background-color: #f9f9f9 !important;
+}
+
