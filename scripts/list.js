@@ -12,7 +12,7 @@ function addTarefa() {
     const novaTarefa = {
         id: Math.floor(Math.random() * 1000000),
         text: tarefaTexto,
-        completo: false
+        completed: false
     }
 
     tarefas.push(novaTarefa);
